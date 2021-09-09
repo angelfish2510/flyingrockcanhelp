@@ -15,8 +15,8 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     background: #e6d9d9;
-    color: #4d0013;
-    background-image: radial-gradient(circle at top, #d2fff4, #deb9bc);
+    color: #05072F;
+    background-image: radial-gradient(circle at top, #FBFCFB, #1E4731);
     font-size: 21px;
 }
 
@@ -24,7 +24,7 @@ body {
 header {
     width: 100%;
     /* background-image: linear-gradient(270deg,rgb(222, 185, 188) 0%, #be737a 60%, rgb(77, 0, 19) 100%); */
-    background-image: linear-gradient(270deg,#273706 0%, #0C0B3F 60%, #2E0637 100%);
+    background-image: linear-gradient(270deg,#0C2340 0%, #1e2048 100%);
 
     color: #f6edee;
     /* opacity: 0.9; */
@@ -35,7 +35,7 @@ header {
 
 footer {
     width: 100%;
-    background-image: linear-gradient(90deg,#CE969B 0%, #c6858a 60%, rgb(77, 0, 19) 100%);
+    background-image: linear-gradient(270deg,#1e2048 0%, #0C2340 100%);
     color: #eedcdd;
 }
 
@@ -46,7 +46,7 @@ footer {
 ==================================== */
 
 .main-header {
-    border-bottom: 4.5px solid #4d0013;
+    border-bottom: 4.5px solid #052517;
     margin-bottom: 15px;
     display: flex;
     flex-direction: row;
@@ -58,7 +58,7 @@ footer {
 }
 
 .main-footer {
-    border-top: 4.5px solid #4d0013;
+    border-top: 4.5px solid #052517;
     margin-top: 15px;
     display: flex;
     flex-direction: row;
@@ -186,7 +186,7 @@ footer {
 
 .main-nav a,
 .main-nav-footer a {
-    background: #4d0013;
+    background: #1E4731;
     color: #e6d9d9;
     text-decoration: none;
     /* display: inline-block; */
@@ -276,7 +276,7 @@ h2 {
 }
 
 .why {
-    background-image: radial-gradient( circle at top, #d2fff4, #deb9bc);
+    background-image: radial-gradient( circle at top, #FBFCFB, #38614B);
     border-radius: 6px;
     padding: 5px 10px;
 }
@@ -320,11 +320,25 @@ h2 {
     display: flex;
     flex-direction: column;
     /* padding-left: 4px; */
-    background-image: radial-gradient( circle at top, #d2fff4, #deb9bc);
+    background-image: radial-gradient( circle at top, #FBFCFB, #38614B);
     /* border: 1px solid #004d3a; */
     border-radius: 6px;
     margin: 5px;
     padding: 5px 10px;
+}
+
+.explore,
+.explore ul {
+ display: flex;
+ flex-direction: column;
+ margin: auto;
+ list-style-type: none;
+}
+
+ .explore a {
+ text-decoration: none;
+ color: #05072F;
+ font-weight: bolder;
 }
 
 .sublist_li {
@@ -1195,8 +1209,8 @@ blockquote {
     } */
 
     .why {
-        max-width: 40%;
-        margin-left: 45px;
+        max-width: 70%;
+        margin: auto;
     }
     
     .wrapper2,
