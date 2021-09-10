@@ -277,7 +277,7 @@ h2 {
 
 .why {
     background-image: radial-gradient( circle at top, #FBFCFB, #38614B);
-    border-radius: 6px;
+    border-radius: 20%;
     padding: 5px 10px;
 }
 
@@ -294,7 +294,7 @@ h2 {
     padding: 10px;
 }
 
-.why h3,
+.why h2,
 .kerikay-words h3 {
     margin: auto;
     text-align: center;
