@@ -20,6 +20,11 @@ body {
     font-size: 21px;
 }
 
+.parenting {
+    background-image: radial-gradient(circle at top, yellow, #1E4731);
+
+}
+
 
 header {
     width: 100%;
