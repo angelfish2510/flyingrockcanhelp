@@ -25,12 +25,12 @@
   }
 
   .container {
-    @include mq($lg){
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
+    @include mq($lg)//{
+   // max-width: 1400px;
+   // display: block;
+   // margin-left: auto;
+   // margin-right: auto;
+  // }
   }
   
   /**

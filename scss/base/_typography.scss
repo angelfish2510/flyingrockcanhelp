@@ -19,11 +19,11 @@ text-decoration: none;
 //     margin-left: 10px;
 //   }
   
- &-secondary {
-    font-weight: 300;
-    color: $color-primary;
-  }
-}
+//  &-secondary {
+//     font-weight: 300;
+//     color: $color-primary;
+  
+// }
 
   .link {
     color: $color-link;
@@ -38,4 +38,8 @@ text-decoration: none;
     padding-left: 20px;
     border-left: 8px solid $color-headline-primary;
     border-radius: 5px;
+  }
+
+  .placeholder-text { 
+    color: $placeholdercolor;
   }

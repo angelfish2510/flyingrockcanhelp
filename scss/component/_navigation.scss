@@ -1,0 +1,86 @@
+
+
+.nav,
+.nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-nav {
+    margin-bottom: 12px;
+    a{  background: $sugilavendar;
+        color: $sugired;
+        text-decoration: none;
+        padding: 1px 10px;
+        margin-top: 5px;
+        border-radius: 50px;
+    }
+}
+    
+
+.main-nav-footer{
+    margin-top: 8px;
+    a{
+        background: $sugilavendar;
+        color: $sugired;
+        text-decoration: none;
+        padding: 1px 10px;
+        margin-top: 5px;
+        border-radius: 50px;    }
+    li{
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1em;
+        line-height: 1em;
+        padding: 10px;  
+    }
+}//end main nav
+
+
+.upper-nav,
+.lower-nav {
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    ul{ 
+        display: flex;
+        justify-content: space-around;
+        }
+    li{
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: 1em;
+        padding: 5px;
+        }
+    }
+
+.upper-nav-footer,
+.lower-nav-footer {
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    ul{ 
+        display: flex;
+        justify-content: space-around;
+        }
+    li{
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: 1em;
+        padding: 5px;
+        }
+    }
+
+
+.main-nav a:hover,
+.main-nav-footer a:hover {
+    background: $sugired;
+    color: $sugilavendar;
+}
+

@@ -1,0 +1,28 @@
+.fly-img {
+    max-width: 30%;
+    flex-grow: 1;
+    border-radius: 4px;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    background-color: $sugilightpurple;
+    box-shadow: 0 3px 3px 3px $sugilightpurple;
+    padding: 2px;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 2px;
+
+    .fr-why,
+    .fr-who {
+        align-self: stretch;
+        justify-self: stretch;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
